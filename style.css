@@ -26,8 +26,6 @@
     margin-top: 15px;
     overflow: hidden;
     width: 100%;
-    /* text align center use for all text move to center */
-    text-align: center;
 }
 
 .project_items {
@@ -38,6 +36,8 @@
     margin-left: 10px;
     margin-bottom: 10px;
     height: 300px;
+    /* text align center use for all text move to center */
+    text-align: center;
     background-color: antiquewhite;
 }
 
@@ -48,10 +48,11 @@
 
 .footer {
     margin-top: 15px;
-    height: 150px;
+    height: 180px;
     background-color: antiquewhite;
     color: black;
     border: 2px solid black;
+    text-align: center;
 }
 
 .footer_item {
@@ -66,8 +67,12 @@
     display: block;
 }
 
-/* @media screen  use for device responsiv */
-/*======================================== */
+/* @media screen  use for device responsive */
+/*========================================= */
+
+/* ========================
+   Hero Section Responsive     
+  ========================= */
 
 @media screen and (max-width: 650px) {
 
@@ -90,6 +95,10 @@
     }
 }
 
+
+/* ========================
+   Project_Items Responsive     
+  ========================= */
 @media screen and (max-width: 750px) {
     .project_items {
         width: 235px;
@@ -132,13 +141,13 @@
     }
 }
 
-@media screen and (max-width: 6454px) {
+@media screen and (max-width: 645px) {
     .project_items {
         width: 200px;
     }
 }
 
-@media screen and (max-width: 6304px) {
+@media screen and (max-width: 630px) {
     .project_items {
         width: 195px;
         height: 280px;
@@ -168,18 +177,14 @@
         width: 180px;
 
     }
-
 }
-
 
 @media screen and (max-width: 570px) {
     .project_items {
         width: 175px;
 
     }
-
 }
-
 
 @media screen and (max-width: 555px) {
     .project_items {
@@ -188,7 +193,6 @@
     }
 }
 
-
 @media screen and (max-width: 540px) {
     .project_items {
         width: 165px;
@@ -196,7 +200,6 @@
     }
 
 }
-
 
 @media screen and (max-width: 525px) {
     .project_items {
@@ -239,7 +242,6 @@
 
     }
 }
-
 
 @media screen and (max-width: 460px) {
     .project_items {
@@ -316,5 +318,159 @@
     .project_items {
         width: 310px;
 
+    }
+}
+
+/* =======================
+   Footer_Item Responsive     
+  ======================== */
+
+@media screen and (max-width: 750px) {
+    .footer_item {
+        width: 235px;
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .footer_item {
+        width: 230px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .footer_item {
+        width: 225px;
+    }
+}
+
+@media screen and (max-width: 705px) {
+    .footer_item {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .footer_item {
+        width: 215px;
+    }
+}
+
+@media screen and (max-width: 674px) {
+    .footer_item {
+        width: 210px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .footer_item {
+        width: 205px;
+    }
+}
+
+@media screen and (max-width: 645px) {
+    .footer_item {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .footer_item {
+        width: 195px;
+    }
+}
+
+@media screen and (max-width: 615px) {
+    .footer_item {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer_item {
+        width: 185px;
+    }
+}
+
+@media screen and (max-width: 585px) {
+    .footer_item {
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .footer_item {
+        width: 175px;
+    }
+}
+
+@media screen and (max-width: 555px) {
+    .footer_item {
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .footer_item {
+        width: 165px;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .footer_item {
+        width: 160px;
+    }
+}
+
+@media screen and (max-width: 510px) {
+    .footer_item {
+        width: 155px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .footer_item {
+        width: 390px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .footer_item {
+        width: 360px;
+    }
+}
+
+@media screen and (max-width: 370px) {
+    .footer_item {
+        width: 340px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .footer_item {
+        width: 330px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .footer_item {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .footer_item {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 310px) {
+    .footer_item {
+        width: 290px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .footer_item {
+        width: 280px;
     }
 }
